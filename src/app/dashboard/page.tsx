@@ -25,7 +25,7 @@ async function ProjectsList() {
           key={projects.id}
           className="p-4 border-b hover:bg-accent/50 transition-colors"
         >
-          <Link href={`/projectss/${projects.id}`} className="block">
+          <Link href={`/projects/${projects.id}`} className="block">
             <h3 className="text-lg font-semibold hover:underline">
               {projects.name}
             </h3>
